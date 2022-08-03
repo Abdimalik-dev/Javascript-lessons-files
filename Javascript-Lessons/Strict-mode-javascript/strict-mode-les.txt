@@ -1,0 +1,16 @@
+  STRICT MODE IN JAVASCRIPT 
+
+Strict mode 
+Strict mode eliminates some JavaScript silent errors by changing them to throw errors.
+ Strict mode fixes mistakes that make it difficult 
+ for JavaScript engines to perform optimizations: strict mode 
+ code can sometimes be made to run faster than identical code that's not strict mode
+
+
+
+ What is the benefit of strict mode?
+By changing errors to throw errors, strict mode removes certain JavaScript silent errors. 
+Strict mode repairs mistakes that make it difficult for JavaScript engines to perform optimizations.
+ (It can sometimes execute faster than identical code that's not strict mode.)
+
+ 

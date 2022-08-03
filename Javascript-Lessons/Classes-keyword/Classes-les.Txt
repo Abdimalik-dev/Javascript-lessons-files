@@ -1,0 +1,61 @@
+CLASSES 
+
+Classes are a template fir creating objects They encapsulates data with code to work on that data.
+ Classes in js are built on prototype but also have some Syntax and semantics that are not shared with  ES5 class like semantics.
+
+
+
+ DEFINING CLASSES
+
+Classes are in fact "specail function " and just as you can define function expression and function declarations the classes syntax has two component class expressions and class declarations
+
+
+CLASS declarations
+One way to define a class keyword with name of the class ("RECTANGLE" here ).
+example code 
+class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+}
+
+
+Hoisting 
+
+An important difference between function declarations and class declarations
+is that while functions can be defined before they can be constructed code like following 
+
+example code 
+const p = new Rectangle(); // ReferenceError
+
+class Rectangle {}
+
+
+CLASS EXPRESSION
+A Classes expression is another way to define  a  class .
+Class expressions can be unnamed . The name given to a named class expression is local to the class's body . How ever it can be accessed via the name property 
+
+example code 
+// unnamed
+let Rectangle = class {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+};
+console.log(Rectangle.name);
+// output: "Rectangle"
+
+// named
+Rectangle = class Rectangle2 {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+};
+console.log(Rectangle.name);
+// output: "Rectangle2"
+
+
+

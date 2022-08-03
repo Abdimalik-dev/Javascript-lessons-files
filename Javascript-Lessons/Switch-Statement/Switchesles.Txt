@@ -1,0 +1,11 @@
+     SWITCHES IN JavaScript
+
+The SWITCHES statement is a part of JavaScript's "Conditional statements ,
+which are used to perform different actions based on different conditions 
+
+
+Other defitions 
+
+In addition to if...else , JavaScript has a feature known as a switch statement. 
+switch is a type of conditional statement that will evaluate an expression 
+against multiple possible cases and execute one or more blocks of code based on matching cases.

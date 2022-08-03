@@ -1,0 +1,38 @@
+
+  -----------   LOOPS IN JAVASCRIPT   -----------
+             -----------------------
+
+
+
+
+
+____________________________________________________________________________________________________________________________________
+    Different Kinds of Loops
+JavaScript supports different kinds of loops:
+
+ * for - loops through a block of code a number of times
+ * for/in - loops through the properties of an object
+ * for/of - loops through the values of an iterable object
+ * while - loops through a block of code while a specified condition is true
+ * do/while - also loops through a block of code while a specified condition is true
+ * For/await -
+   ....
+
+
+_________________________________________________________________________________________________________________________________________
+    * WHY DO WE USE LOOPS IN JAVASCRIPT ?
+        Loops are used in JavaScript to perform repeated tasks based on a condition.
+ Conditions typically return true or false . 
+ A loop will continue running until the defined condition returns false.
+
+
+__________________________________________________________________________________________________________________________________________
+  * Why is forEach better than for loop JavaScript?
+       This article describes the difference between a forEach and for loop in detail.
+.....
+Javascript.
+
+          |FOR LOOP                                                 | FOREACH LOOP
+    *It is faster in performance.	                         | * It is slower than the traditional loop in performance.
+    *The break statement can                                 | * The break statement cannot be used because of the callback function.
+     - be used to come out from the loop.	                  

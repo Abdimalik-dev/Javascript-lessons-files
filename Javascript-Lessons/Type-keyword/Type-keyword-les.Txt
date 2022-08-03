@@ -1,0 +1,26 @@
+Type in javascript
+Type is a javascript Keyword that will return the type of a varaible when you call it You can use this to validate function parameters or check if varaible are defined .
+
+Other Definitions 
+
+Types are Classified into two of variables
+
+    
+                   TYPES
+1__value Types {
+    * Strings
+    * Number
+    * Booleans
+    * null
+    * undefined
+}   
+
+
+
+
+2__Reference Types {
+    * Objects 
+    * arrays
+    * functions
+
+}

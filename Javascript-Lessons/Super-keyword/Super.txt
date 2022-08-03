@@ -1,0 +1,15 @@
+Super 
+
+The super keyword is used to access properties on an object literal or class  [ prototype],
+or invoke a supperclass's constructor.
+
+The super.prop and super[expr]  expressions are valid in any method definition in both classes and object. the super(..args  )  expressions  is valid in class constructors 
+
+
+Syntax
+
+super([argument]) // calls the parent constructor.
+super.propertiesOnParent 
+super[expression]
+
+

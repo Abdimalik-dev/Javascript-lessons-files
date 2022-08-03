@@ -1,0 +1,7 @@
+OBJECT 
+Object is a standalone entity with properties and type compare
+it with a cup 
+for example
+A cup is an object , with properties  a cup has  a color , a design , weight , a material it is made of etc .
+the same way , javascript objects can have properties , wich 
+define their characteristics .

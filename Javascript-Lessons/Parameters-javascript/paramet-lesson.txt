@@ -1,0 +1,55 @@
+Parameter
+A parameter is a named variable passed into a function. 
+
+Parameter variables are used to import arguments into functions.
+
+For Exmaple  code 
+
+function example(parameter) {
+  console.log(parameter); // Output = foo
+}
+
+const argument = 'foo';
+
+example(argument);
+------------------------------------------------------
+
+
+Note the difference between parameters and arguments:
+
+Function parameters are the names listed in the function's definition.
+Function arguments are the real values passed to the function.
+Parameters are initialized to the values of the arguments supplied.
+
+
+-------------------------------------------------------------------------------
+
+
+
+
+Two kinds of parameters:
+
+input parameters
+the most common kind; they pass values into functions. 
+Depending on programming language, input parameters can be passed several ways 
+(e.g., call-by-value, call-by-address, call-by-reference).
+
+output/return parameters
+primarily return multiple values from a function, 
+but not recommended since they cause confusion
+   
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+difference between parameter and arguments:---
+
+For other uses, see Parameter (disambiguation).
+In computer programming, a parameter or a formal argument is a special kind of variable 
+used in a subroutine to refer to one of the pieces of data 
+provided as input to the subroutine.[a][1] These pieces of data are the values[2][3][4] of the arguments
+ (often called actual arguments or actual parameters) with which the subroutine is going to be called/invoked.
+  An ordered list of parameters is usually included in the definition of a subroutine,
+   so that, each time the subroutine is called, its arguments for that call are evaluated, 
+   and the resulting values can be assigned to the corresponding parameters.

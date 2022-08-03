@@ -1,0 +1,12 @@
+        _________ Arrays in Javascript _________
+                 _____________________
+
+
+Arrays
+-------
+
+What is Arrays?
+    Arrays are a special type of objects The typesof
+     operator in javascript returns "object" for Arrays Butt
+    javascript arrays are best described as arrays 
+      Arrays use numbers to access its "Elements"

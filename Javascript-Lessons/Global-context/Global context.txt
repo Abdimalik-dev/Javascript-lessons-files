@@ -1,0 +1,3 @@
+Global context 
+
+in the global execution context (outside of any function), this refers to the global object wether in strict mode or not 
